@@ -4,7 +4,7 @@ body {
   color: #333;
   margin: 0;
   line-height: 1.6;
-  background-image: url('jasimage.jpeg/sunrise.jpg'); /* <-- Add this line */
+  background-image: url('jasimage/sunrise.jpg'); /* <-- Add this line */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ header {
   padding: 2rem 1rem;
 }
 header {
-  background-image: url('jasimage.jpeg/nature.avif');
+  background-image: url('jasimage/nature.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
