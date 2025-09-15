@@ -1,0 +1,155 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf6f0;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+  background-image: url('jasimage/sunrise.jpg'); /* <-- Add this line */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+header {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+header {
+  background-image: url('jasimage/nature.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: purple;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #ff6f61;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 60%;
+  margin: 0 2rem 0 0;
+  border: 4px solid #ff9a9e;
+}
+.about-flex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.about-p{
+  font-style: italic;
+  font-family: 'Brush Script MT', cursive, sans-serif;
+}
+
+ul {
+  list-style: square inside;
+  margin-left: 1rem;
+}
+
+a {
+  color: #ff6f61;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ff9a9e;
+  color: white;
+  margin-top: 2rem;
+  border-top: 4px solid #ff6f61;
+}
+.adjacent-flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.adjacent-pic {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.adjacent-pic:hover, .profile-pic:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+a {
+  position: relative;
+  transition: color 0.3s;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #ff6f61;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+@keyframes headerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  animation: headerFadeIn 1.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+#contact {
+  animation: fadeIn 1.2s ease;
+}
+
+form input, form textarea, form button {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+form input { animation-delay: 0.5s; }
+form textarea { animation-delay: 0.7s; }
+form button { animation-delay: 0.9s; }
+
+
