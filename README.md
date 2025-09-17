@@ -1,5 +1,11 @@
 # My web page
 
+My live site: https://jasmi1901.github.io/jasmi1901/
+
+My Git hub repo: https://github.com/jasmi1901/jasmi1901
+
+Steps:
+
 I have developed a web page using HTML and CSS. 
 The structure includes essential semantic elements like head, body, div, section, Unordered list, and images.
 The page contains two headings and four distinct sections, each identified with unique id attributes.
