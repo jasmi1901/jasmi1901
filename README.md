@@ -2,8 +2,8 @@
 
 ## Links
 
-Live site: https://jasmi1901.github.io/jasmi1901/
-GitHub repo: https://github.com/jasmi1901/jasmi1901
+- Live site: https://jasmi1901.github.io/jasmi1901/
+- GitHub repo: https://github.com/jasmi1901/jasmi1901
 
 ## Steps:
 
@@ -29,25 +29,26 @@ GitHub repo: https://github.com/jasmi1901/jasmi1901
 - Balancing between content writing and coding took more time than i expected.
 
 ## Useful git hub comments
-# to get the status of the repo:
+
+### to get the status of the repo:
 git status
 
-# to sync the github repo and our local:
+### to sync the github repo and our local:
 git pull origin branch_name
 
-# to sync the local repo to github:
+### to sync the local repo to github:
 git push origin branch_name
 
-# to switch between different branches:
+### to switch between different branches:
 git switch origin branch_name
 
-# to add the changes in the repo:
+### to add the changes in the repo:
 git add filename / git add .
 
-# to stage our changes in repo:
+### to stage our changes in repo:
 git commit -am "any meaningful message"
  
- # to merge: 
+### to merge: 
 - To  merge dev and main raise PR in github
 - once PR approved merge dev to main
 
