@@ -28,26 +28,26 @@ GitHub repo: https://github.com/jasmi1901/jasmi1901
 - I faced issues like broken links, missing image and styling not applying due to small syntax errors.
 - Balancing between content writing and coding took more time than i expected.
 
-## Usefull git hub comments
-# to get the status of the repo
+## Useful git hub comments
+# to get the status of the repo:
 git status
 
-# to sync the github repo and our local
+# to sync the github repo and our local:
 git pull origin branch_name
 
-# to sync the local repo to github
+# to sync the local repo to github:
 git push origin branch_name
 
-# to switch between different branches
+# to switch between different branches:
 git switch origin branch_name
 
-# to add the changes in the repo
+# to add the changes in the repo:
 git add filename / git add .
 
-# to stage our changes in repo
+# to stage our changes in repo:
 git commit -am "any meaningful message"
  
- # to merge 
-To  merge dev and main raise PR in github
-once PR approved merge dev to main
+ # to merge: 
+- To  merge dev and main raise PR in github
+- once PR approved merge dev to main
 
