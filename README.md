@@ -1,12 +1,12 @@
 # My web page
 
 I have developed a web page using HTML and CSS. 
-The structure includes essential semantic elements like <head>, <body>, <div>, <section>, <ul>, <a>, and images (using <img>).
+The structure includes essential semantic elements like head, body, div, section, Unordered list, and images.
 The page contains two headings and four distinct sections, each identified with unique id attributes.
 I incorporated images and a footer, applied background colors and a background image using CSS, and styled the text with custom font sizes and text alignment. 
 Additionally, I implemented animations on the header, images, and contact section to enhance interactivity.
 
-The project is version-controlled with Git.
+The project is version-controlled with Github.
 
 I created a repository named jasmi1901 on GitHub and organized the workflow using two branches: main and dev.
 
